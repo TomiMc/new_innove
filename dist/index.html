@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Innove</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="output.css">
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron&display=swap" rel="stylesheet">
+
+    <style>
+		body {
+			background-color: #1A1A1A;
+		}
+		h1, h2, h3, h4, h5, h6, p, ul, li, input, textarea, button {
+			color: #FFFFFF;
+		}
+        h2 {
+            font-family: 'Orbitron', sans-serif;
+        }
+	</style>
+</head>
+<body class="bg-gray-800">
+    <header class="bg-gray-800">
+        <div class="mx-auto bg-gray-700 text-white p-2 font-sans">
+            <ul class="flex gap-4 justify-around items-center">
+                <li><i class="fa-solid fa-phone mx-2"></i>981 83 55 23</li>
+                <li><i class="fas fa-envelope"> </i> innove@e-innove.com</li>
+                <li>
+                    <a href="https://wa.me/+34981835523" target="_blank" class="text-green-600 text-2xl">
+                        <i class="fab fa-whatsapp"></i>
+                    </a>
+                          
+                    </div>
+                </li>
+                
+            </ul>
+        </div>
+
+
+        <div class="container mx-auto px-4 flex flex-col sm:flex-row items-center justify-between py-4">
+          <div class="flex items-center">
+            <img src="logos/logo_test.png" class="mix-blend-screen mr-4" style="width: 250px;" alt="Logo">
+            
+            <h1 class="text-xl font-bold"></h1>
+          </div>
+          <nav class="mt-4 sm:mt-12">
+            <ul class="flex gap-4 sm:flex-row uppercase tracking-widest">
+              <li class="mr-0 sm:mr-6"><a href="#inicio" class="text-gray-400 hover:text-red-500 font-bold ">Inicio</a></li>
+              <li class="mr-0 sm:mr-6"><a href="#servicios" class="text-gray-400 hover:text-red-500 font-bold ">Servicios</a></li>
+              <li class="mr-0 sm:mr-6"><a href="#contacto" class="text-gray-400 hover:text-red-500 font-bold ">Contacto</a></li>
+            </ul>
+          </nav>
+        </div>
+      </header>
+
+	<section class="py-12 hero_bg" >
+		<div class="container mx-auto px-4">
+				<h2 class="text-4xl font-bold mb-8 text-white text-center">Servicios informáticos de calidad</h2>
+				<p class="text-lg text-white text-center">En Innove Informática, nos esforzamos por brindarle soluciones informáticas asequibles y de calidad para sus necesidades de negocios y personales.</p>
+                
+				<div class="flex justify-center mt-8">
+					<a href="#" class="bg-white text-red-500 font-bold py-2 px-4 rounded-full hover:bg-red-500 hover:text-white">Saber más</a>
+				</div>
+		</div>
+	</section>
+
+	<main>
+		<section id="servicios" class="bg-gray-900 py-32">
+			<div class="container mx-auto px-4">
+				<h2 class="text-3xl font-bold mb-8 text-center">Nuestros servicios</h2>
+				<div class="grid grid-cols-1 md:grid-cols-3 gap-8" >
+					<div class="bg-gray-700 rounded-lg shadow-xl px-6 py-8 flex flex-col items-center" >
+                        <img src="icons/ordenador-portatil.png" alt="Icono de portátil" class="w-32 mb-4">
+						<h3 class="text-lg font-bold mb-4">Reparación de portátiles</h3>
+						<p class="text-gray-400 text-center">Ofrecemos servicio de reparación de todo tipo de portátiles, desde problemas de software hasta problemas de hardware.</p>
+					</div>
+					<div class="bg-gray-700 rounded-lg shadow-lg px-6 py-8 flex flex-col items-center">
+						<img src="icons/ipad.png" alt="Icono de portátil" class="w-32 mb-4">
+                        <h3 class="text-lg font-bold mb-4">Reparación de tablets</h3>
+                        <p class="text-gray-400 text-center">Reparamos tablets de todas las marcas y modelos, incluyendo problemas de pantalla, batería, software, etc.</p>
+                    </div>
+                    <div class="bg-gray-700 rounded-lg shadow-lg px-6 py-8 flex flex-col items-center">
+                        <img src="icons/mobile.png" alt="Icono de portátil" class="w-32 mb-4">
+                        <h3 class="text-lg font-bold mb-4">Reparación de móviles</h3>
+                        <p class="text-gray-400 text-center">Arreglamos cualquier problema con tu móvil, desde pantallas rotas hasta problemas de carga o batería.</p>
+                    </div>
+                    <div class="bg-gray-700 rounded-lg shadow-lg px-6 py-8 flex flex-col items-center">
+                        <img src="icons/virus.png" alt="Icono de portátil" class="w-32 mb-4">
+                        <h3 class="text-lg font-bold mb-4">Eliminación de virus</h3>
+                        <p class="text-gray-400 text-center">Eliminamos todo tipo de virus y malware de tus dispositivos, y te proporcionamos software de protección para evitar futuras infecciones.</p>
+                    </div>
+                    <div class="bg-gray-700 rounded-lg shadow-lg px-6 py-8 flex flex-col items-center">
+                        <img src="icons/software.png" alt="Icono de portátil" class="w-32 mb-4">
+                        <h3 class="text-lg font-bold mb-4">Instalación de software</h3>
+                        <p class="text-gray-400 text-center">Instalamos y configuramos todo tipo de software para optimizar el rendimiento de tus dispositivos y cubrir tus necesidades.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="bg-gray-900 py-12 grid place-content-center">
+            <div class="container mx-auto px-4">
+                <h2 class="text-3xl font-bold mb-8 text-center text-white">¿Donde estamos?</h2>
+                <div class="embed-responsive">
+                    <iframe class="m-auto" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d11755.943748377575!2d-8.9932856!3d42.5555915!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd2f39c998a481c5%3A0xaa0089316a734285!2sINNOVE%20INFORMATICA!5e0!3m2!1ses!2ses!4v1682066512424!5m2!1ses!2ses" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>
+
+        </section>
+        
+          
+        <section id="contacto"  class="bg-gray-800 py-12">
+            <div class="container mx-auto px-4">
+                <h2 class="text-3xl font-bold mb-8 text-center text-white">Contacto</h2>
+                <form class="max-w-md mx-auto">
+                    <div class="mb-4">
+                        <label for="nombre" class="block text-gray-400 font-bold mb-2">Nombre:</label>
+                        <input type="text" id="nombre" name="nombre" class="border-2 border-gray-600 p-2 w-full rounded-md text-gray-400">
+                    </div>
+    
+                    <div class="mb-4">
+                        <label for="email" class="block text-gray-400 font-bold mb-2">Email:</label>
+                        <input type="email" id="email" name="email" class="border-2 border-gray-600 p-2 w-full rounded-md text-gray-400">
+                    </div>
+    
+                    <div class="mb-4">
+                        <label for="mensaje" class="block text-gray-400 font-bold mb-2">Mensaje:</label>
+                        <textarea id="mensaje" name="mensaje" class="border-2 border-gray-600 p-2 w-full rounded-md h-32 text-gray-400"></textarea>
+                    </div>
+    
+                    <input type="submit" value="Enviar" class="bg-red-500 hover:bg-red-600 text-white font-bold py-2 px-4 rounded-md cursor-pointer">
+                </form>
+            </div>
+        </section>
+    </main>
+    
+    <footer class="bg-gray-800 py-8">
+        <div class="container mx-auto px-4">
+            <p class="text-lg text-center text-gray-400">&copy; 2023 Innove Informatica. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+
+    <script>
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+    
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+    </script>
+    
+</body>
+</html>
